@@ -1,0 +1,105 @@
+.bigContainer {
+  width: 85%;
+  margin: 0 auto 100px auto;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  height: 600px;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBuy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+
+.title {
+  margin: 5px 0px;
+  font-size: 30px;
+}
+
+.precio {
+  margin: 5px 0px;
+}
+
+.sku {
+  margin: 5px 0px;
+  background-color: #dcdcdc;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.form {
+  margin: 5px 0px;
+}
+
+.input {
+  width: 16rem;
+  height: 2rem;
+  border: 1px solid #dedede;
+}
+
+.buttonAdd {
+  width: 5rem;
+  height: 2.1rem;
+  border: none;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.containerInfo {
+  grid-column: 1/3;
+  box-shadow: 1px 1px 10px #adadad;
+  margin-bottom: 40px;
+}
+
+.info {
+  margin: 20px;
+}
+
+.gridAtributes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1fr, 4);
+  border: 0.5px solid #ededed;
+
+}
+
+.atributes {
+  grid-column: 1/3;
+  border: 0.5px solid #ededed;
+  background-color: #ededed;
+}
+
+.title2 {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.gridField {
+  border: 0.5px solid #ededed;
+}
+
+.fieldAtributes {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.resultAtributes {
+  margin-left: 15px;
+  font-size: 16px;
+}

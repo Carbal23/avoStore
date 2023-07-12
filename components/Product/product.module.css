@@ -1,0 +1,25 @@
+.cardContainer{
+    box-shadow: 1px 5px 10px #000;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.link{
+    text-decoration: none;
+
+}
+/* .img{
+
+} */
+
+/* .imgContainer{
+    display: flex;
+} */
+
+.infoContainer{
+    margin-left: 10px;
+    border-top: 1px solid #ededed;
+
+}
