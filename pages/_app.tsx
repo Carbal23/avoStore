@@ -2,6 +2,11 @@ import Layout from "components/layout/Layout";
 import type { AppProps } from "next/app";
 import { useState } from "react";
 
+// export function reportWebVitals(metric){
+//   //analitics , calibrie
+//   console.log(metric);
+// }
+
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [cartValue, setCartValue]= useState(0);
 
